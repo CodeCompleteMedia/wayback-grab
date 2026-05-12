@@ -1,6 +1,6 @@
 {
   "name": "wayback-grab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Download a full Wayback Machine snapshot of a domain, rewrite internal links, and ship a working offline mirror.",
   "type": "module",
   "bin": {
