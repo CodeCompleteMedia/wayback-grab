@@ -9,9 +9,9 @@ Usage:
   wayback-grab <domain> [options]
 
 Examples:
-  wayback-grab yardsaledigger.com
-  wayback-grab yardsaledigger.com -o ./ysd --from 20130101 --to 20141231
-  wayback-grab yardsaledigger.com --concurrency 3 --no-rewrite
+  wayback-grab spacejam.com
+  wayback-grab spacejam.com -o ./spacejam-1996 --from 19961101 --to 19991231
+  wayback-grab spacejam.com --concurrency 3 --no-rewrite
 
 Options:
   -o, --output <dir>        Output directory (default: ./wayback-archive)

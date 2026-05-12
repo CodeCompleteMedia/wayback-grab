@@ -15,10 +15,10 @@ Requires Node.js 18 or newer.
 ## Quick start
 
 ```sh
-wayback-grab yardsaledigger.com
+wayback-grab spacejam.com
 ```
 
-That downloads every capture the Wayback Machine has of `yardsaledigger.com` into `./wayback-archive/` and prints the path to the entry page when it's done.
+That downloads every capture the Wayback Machine has of `spacejam.com` into `./wayback-archive/` and prints the path to the entry page when it's done.
 
 ## Usage
 
@@ -31,25 +31,25 @@ wayback-grab <domain> [options]
 Pull a specific era of a site, keeping the latest snapshot per URL within the range:
 
 ```sh
-wayback-grab yardsaledigger.com -o ./ysd --from 20130101 --to 20141231
+wayback-grab spacejam.com -o ./spacejam-1996 --from 19961101 --to 19991231
 ```
 
 See what's archived before downloading anything:
 
 ```sh
-wayback-grab yardsaledigger.com --dry-run
+wayback-grab spacejam.com --dry-run
 ```
 
 Pull more cautiously to avoid hammering archive.org:
 
 ```sh
-wayback-grab yardsaledigger.com --concurrency 2
+wayback-grab spacejam.com --concurrency 2
 ```
 
 Skip the link-rewriting pass (you just want the raw files):
 
 ```sh
-wayback-grab yardsaledigger.com --no-rewrite
+wayback-grab spacejam.com --no-rewrite
 ```
 
 ### Options
