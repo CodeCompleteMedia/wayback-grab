@@ -1,0 +1,52 @@
+{
+  "name": "wayback-grab",
+  "version": "0.1.0",
+  "description": "Download a full Wayback Machine snapshot of a domain, rewrite internal links, and ship a working offline mirror.",
+  "type": "module",
+  "bin": {
+    "wayback-grab": "./bin/cli.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "wayback",
+    "wayback-machine",
+    "archive.org",
+    "internet-archive",
+    "scraper",
+    "mirror",
+    "offline",
+    "snapshot",
+    "cli",
+    "cdx"
+  ],
+  "author": "Matthew <matt@codecompletemedia.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCompleteMedia/wayback-grab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeCompleteMedia/wayback-grab/issues"
+  },
+  "homepage": "https://github.com/CodeCompleteMedia/wayback-grab#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "p-limit": "^5.0.0"
+  }
+}

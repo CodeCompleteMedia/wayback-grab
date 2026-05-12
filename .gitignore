@@ -1,0 +1,8 @@
+node_modules/
+*.log
+npm-debug.log*
+.DS_Store
+
+# Local archive output from manual testing
+wayback-archive/
+*.tgz
